@@ -123,6 +123,41 @@ db.once('open', async () => {
       image: 'alphabet-blocks.jpg',
       price: 9.99,
       quantity: 600
+    },
+    {
+      name: 'Bella',
+      category: categories[4]._id,
+      description: 'Bella is a friendly and intelligent English Shepherd dog. She loves playing fetch and is great with kids. She is always ready for an adventure!',
+      image: 'bella.jpg',
+      price: 799.99
+    },
+    {
+      name: 'Max',
+      category: categories[4]._id,
+      description: 'Max is a loyal and energetic English Shepherd dog. He enjoys long walks and learning new tricks. He will be a great companion for an active family!',
+      image: 'max.jpg',
+      price: 899.99
+    },
+    {
+      name: 'Lucy',
+      category: categories[4]._id,
+      description: 'Lucy is a playful and affectionate English Shepherd dog. She loves cuddling and enjoys being around people. She will bring lots of joy to your home!',
+      image: 'lucy.jpg',
+      price: 999.99
+    },
+    {
+      name: 'Cooper',
+      category: categories[4]._id,
+      description: 'Cooper is a smart and obedient English Shepherd dog. He excels in obedience training and can learn new commands quickly. He will be a great working companion!',
+      image: 'cooper.jpg',
+      price: 1199.99
+    },
+    {
+      name: 'Daisy',
+      category: categories[4]._id,
+      description: 'Daisy is a gentle and protective English Shepherd dog. She is great with children and has a calm demeanor. She will be a loving and loyal family pet!',
+      image: 'daisy.jpg',
+      price: 999.99
     }
   ]);
 
