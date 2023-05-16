@@ -8,7 +8,7 @@ db.once('open', async () => {
     { name: 'Food' },
     { name: 'Household Supplies' },
     { name: 'Electronics' },
-    { name: 'Books' },
+    { name: 'English Shepherd' },
     { name: 'Toys' }
   ]);
 
@@ -129,14 +129,17 @@ db.once('open', async () => {
       category: categories[4]._id,
       description: 'Bella is a friendly and intelligent English Shepherd dog. She loves playing fetch and is great with kids. She is always ready for an adventure!',
       image: 'bella.jpg',
-      price: 799.99
+      price: 799.99,
+      quantity: '4 weeks'
     },
     {
       name: 'Max',
       category: categories[4]._id,
       description: 'Max is a loyal and energetic English Shepherd dog. He enjoys long walks and learning new tricks. He will be a great companion for an active family!',
       image: 'max.jpg',
-      price: 899.99
+      price: 899.99,
+      quantity: '5 weeks'
+
     },
     {
       name: 'Lucy',
